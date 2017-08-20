@@ -1,0 +1,23 @@
+
+.promt-form{
+    color: #fff;
+}
+
+.promt-title {
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.promt-input {
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-top: 15px;
+    &:focus {
+        border: none;
+        outline: 0;
+        border-bottom: 2px solid #fff;
+    }
+}

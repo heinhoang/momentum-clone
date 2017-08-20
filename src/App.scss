@@ -1,0 +1,33 @@
+.center {
+    display: block;
+    text-align: center;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.todo-widget {
+    bottom: 25px;
+    right: 25px;
+    .widget-body {
+        right: 0;
+        bottom: 100%;
+    }
+}
+
+.config-widget {
+    bottom: 25px;
+    left: 25px;
+    .widget-body {
+        left: 0;
+        bottom: 100%;
+    }
+}
+
+.links-widget {
+    top: 25px;
+    left: 25px;
+    .widget-body {
+        top: 100%;
+        left: 0;
+    }
+}

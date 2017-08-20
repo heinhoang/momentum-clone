@@ -1,0 +1,46 @@
+.strike {
+    text-decoration: line-through;
+}
+
+.today-focus {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.focus-info {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    &:hover {
+        .focus-control {
+            display: inline-block;
+        }
+    }
+}
+
+.focus-text {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 120%;
+}
+
+.focus-control {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}

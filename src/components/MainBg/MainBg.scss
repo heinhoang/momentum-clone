@@ -1,0 +1,13 @@
+.main-bg {
+    position:fixed !important;
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('./imgs/main-bg-01.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

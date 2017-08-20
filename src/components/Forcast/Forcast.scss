@@ -1,0 +1,27 @@
+.forcast {
+    display: inline-block;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+.forcast-stats {
+    font-size: 150%;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.forcast-icon {
+    height: 32px;
+    margin-right: 5px;
+}
+
+.forcast-city {
+    font-size: 65%;
+    text-transform: uppercase;
+    opacity: .7;
+}
